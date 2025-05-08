@@ -1,6 +1,7 @@
 -- Cabify, Challenge Data Analytics, Santiago de Zavalia
 
 -- RDBMS: MySQL v8
+-- https://github.com/santiZavalia/Cabify-Challenge/tree/main
 
 
 -- Table creation and data insertion: 
@@ -45,6 +46,7 @@ CREATE TABLE invoice_entries (
 INSERT INTO invoice_entries VALUES
     ('IE001', 'INV001', 'J001', 55.00, 5.00),
     ('IE002', 'INV001', 'J002', 53.00, 3.00),
+
     ('IE003', 'INV002', 'J003', 130.00, 10.00),
     ('IE004', 'INV003', 'J004', 82.00, 7.00),
     ('IE005', 'INV003', 'J005', 80.00, 5.00),
